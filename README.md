@@ -46,7 +46,7 @@ cp .env.example .env
 
 docker-compose up -d
 
-#É crucial rodar o container que possui os mocks para que a api consuma
+# É crucial rodar o container que possui os mocks para que a api consuma
 docker run -p 3001:3001 -p 3002:3002 matheusprotzen/gateways-mock
 
 Regras de Negócio Implementadas (Nível 2)
