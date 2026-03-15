@@ -2,7 +2,7 @@
 
 Esta é uma API RESTful desenvolvida em Laravel 11 para o gerenciamento de pagamentos multigateway. O sistema foi projetado para ser modular, permitindo a integração de diferentes provedores de pagamento com uma lógica inteligente de **priorização dinâmica** via banco de dados.
 
-
+Minha maior dificuldade foi conseguir tratar os erros que o docker de mock me retornava, inclusive ao realizar uma compra com cvv inválido no gateway 2 ele dava erro porém retornava sucesso, fazendo com que eu tivesse que adaptar o código do meu gateway pra me adaptar a esse response e não dar um falso positivo
 
 ---
 
