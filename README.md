@@ -18,9 +18,9 @@ Esta é uma API RESTful desenvolvida em Laravel 11 para o gerenciamento de pagam
 
 ## 🛠️ Instalação e Configuração
 
-Irei disponibilizar a collection que utilizei para testes + environment em arquivos na raiz do projeto
+Irei disponibilizar a collection que utilizei para testes no arquivo "collection" na raiz do projeto
 
-
+A url para se consumir a api é "http://localhost" + rota do endpoint
 
 Certifique-se de ter o **Docker** instalado em sua máquina.
 
